@@ -58,9 +58,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     [_DEV] = LAYOUT_65_ansi(
         _______, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  _______, _______,
-        _______, _______, _______, _______, _______, _______, KC_HASH, KC_LPRN, KC_RPRN, KC_MINS, KC_PLUS, _______, _______, _______, _______,
-        _______, KC_AT,   _______, _______, _______, _______, KC_GRV,  KC_LCBR, KC_RCBR, KC_UNDS, KC_EQL,  _______,          _______, _______,
-        _______,          _______, _______, _______, _______, _______, KC_ASTR, KC_LBRC, KC_RBRC, _______, KC_EXLM, _______, _______, _______,
+        _______, _______, _______, _______, KC_CIRC, KC_TILD, KC_HASH, KC_LPRN, KC_RPRN, KC_MINS, KC_PLUS, _______, _______, _______, _______,
+        _______, KC_AT,   KC_PIPE, KC_DLR,  KC_PERC, KC_AMPR, KC_GRV,  KC_LCBR, KC_RCBR, KC_UNDS, KC_EQL,  _______,          _______, _______,
+        _______,          _______, _______, _______, _______, KC_BSLS, KC_ASTR, KC_LBRC, KC_RBRC, _______, KC_EXLM, _______, _______, _______,
         _______, _______, _______,                            _______,                   _______, _______, _______, _______, _______, _______
     ),
     [_NUM] = LAYOUT_65_ansi(
