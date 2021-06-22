@@ -4,6 +4,10 @@
 doesn't work. Might be a good idea to use the docker environment anyway to build the firmware.
 
 ```shell
+docker pull qmkfm/base_container
+```
+
+```shell
 util/docker_build.sh dztech/dz65rgb/v2:ckoehn
 ```
 
