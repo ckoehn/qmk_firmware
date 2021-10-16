@@ -42,6 +42,20 @@ const uint32_t PROGMEM unicode_map[] = {
 #define CK_SS X(DE_SS)
 #define CK_EUR X(DE_EUR)
 
+enum combo_events {
+    JK_CTL = 0,
+    DF_CTL,
+    COMBO_LENGTH,
+};
+uint16_t COMBO_LEN = COMBO_LENGTH;
+
+const uint16_t PROGMEM jk_combo[] = {KC_J, KC_K, COMBO_END};
+const uint16_t PROGMEM df_combo[] = {KC_D, KC_F, COMBO_END};
+combo_t key_combos[] = {
+    [DF_CTL] = COMBO(df_combo, KC_LCTL),
+    [JK_CTL] = COMBO(jk_combo, KC_RCTL),
+};
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_BASE] = LAYOUT_alice(
         _______, KC_ESC,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_MINS, KC_EQL,  KC_BSPC,
