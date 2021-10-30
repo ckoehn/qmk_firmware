@@ -69,7 +69,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______, _______, _______, _______, CK_EUR,  KC_CIRC, KC_TILD, KC_HASH, KC_LPRN, KC_RPRN, KC_MINS, KC_PLUS, _______, _______, KC_HOME,
         _______, _______, KC_AT,   KC_PIPE, KC_DLR,  KC_PERC, KC_AMPR, KC_GRV,  KC_LCBR, KC_RCBR, KC_UNDS, KC_EQL,  _______,          KC_PGUP,
                  _______, _______, _______, _______, _______, KC_BSLS, _______, KC_ASTR, KC_LBRC, KC_RBRC, _______, KC_EXLM, KC_PGDN, KC_PGDN,
-                 _______,          _______,          _______,          _______, _______,          _______,                   KC_END
+                 _______,          _______,          KC_ENT,           _______, KC_BSPC,          _______,                   KC_END
     ),
     [_MISC] = LAYOUT_alice(
         _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _______,
