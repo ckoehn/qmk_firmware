@@ -1,0 +1,5 @@
+SRC += ckoehn.c
+
+COMBO_ENABLE = yes
+LTO_ENABLE = yes
+UNICODEMAP_ENABLE = yes

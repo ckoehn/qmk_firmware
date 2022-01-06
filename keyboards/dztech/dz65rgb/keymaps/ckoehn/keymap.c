@@ -1,55 +1,4 @@
-#include QMK_KEYBOARD_H
-
-#define RGB_LAYER_INDICATOR RGB_RED
-
-enum layers {
-    _BASE = 0,
-    _DEV,
-    _NUM,
-    _MISC,
-    _EMPTY,
-};
-
-const uint8_t layer_to_led[] = {
-    [_BASE] = 0,
-    [_DEV] = 1,
-    [_MISC] = 2,
-};
-
-enum unicode_names {
-    DE_AE = 0,
-    DE_AE_CAP,
-    DE_OE,
-    DE_OE_CAP,
-    DE_UE,
-    DE_UE_CAP,
-    DE_SS,
-    DE_EUR,
-};
-
-const uint32_t PROGMEM unicode_map[] = {
-    [DE_AE] = 0x00E4,
-    [DE_AE_CAP] = 0x00C4,
-    [DE_OE] = 0x00F6,
-    [DE_OE_CAP] = 0x00D6,
-    [DE_UE] = 0x00FC,
-    [DE_UE_CAP] = 0x00DC,
-    [DE_SS] = 0x00DF,
-    [DE_EUR] = 0x20AC,
-};
-
-#define CK_A MT(MOD_LSFT, KC_A)
-#define CK_ENT MT(MOD_RCTL, KC_ENT)
-#define CK_ESC MT(MOD_LCTL, KC_ESC)
-#define CK_MISC MO(_MISC)
-#define CK_SCLN MT(MOD_RSFT, KC_SCLN)
-#define CK_SPC LT(_DEV, KC_SPC)
-
-#define CK_AE XP(DE_AE, DE_AE_CAP)
-#define CK_OE XP(DE_OE, DE_OE_CAP)
-#define CK_UE XP(DE_UE, DE_UE_CAP)
-#define CK_SS X(DE_SS)
-#define CK_EUR X(DE_EUR)
+#include "ckoehn.h"
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [_BASE] = LAYOUT_65_ansi(
@@ -88,7 +37,3 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______, _______, _______,                            _______,                   _______, _______, _______, _______, _______, _______
     )
 };
-
-/* void rgb_matrix_indicators_user(void) { */
-/*     rgb_matrix_set_color(layer_to_led[biton32(layer_state)], RGB_LAYER_INDICATOR); */
-/* } */
