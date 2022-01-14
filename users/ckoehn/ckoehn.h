@@ -7,6 +7,7 @@ enum layers {
     _BASE = 0,
     _DEV,
     _MISC,
+    _NAV,
     _NUM,
     _EMPTY,
 };
@@ -22,6 +23,7 @@ enum layers {
 #define CK_TAB LT(_MISC, KC_TAB)
 #define CK_U MT(MOD_RCTL, KC_U)
 #define CK_W LT(_NUM, KC_W)
+#define CK_NAV MO(_NAV)
 
 // Deprecated
 #define CK_ENT MT(MOD_RCTL, KC_ENT)
