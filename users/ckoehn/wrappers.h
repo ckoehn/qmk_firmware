@@ -19,7 +19,7 @@
 
 #define ___________________DEV_R1__________________ KC_HASH, KC_LPRN, KC_RPRN, KC_MINS, KC_PLUS
 #define ___________________DEV_R2__________________ KC_GRV,  KC_LCBR, KC_RCBR, KC_UNDS, KC_EQL
-#define ___________________DEV_R3__________________ KC_ASTR, KC_LBRC, KC_RBRC, _______, KC_EXLM
+#define ___________________DEV_R3__________________ KC_ASTR, KC_LBRC, KC_RBRC, _______, _______
 
 #define ___________________NUM_L1__________________ KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5
 #define ___________________NUM_L2__________________ KC_1,    KC_2,    KC_3,    KC_4,    KC_5
