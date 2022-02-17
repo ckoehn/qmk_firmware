@@ -46,6 +46,16 @@
 #define ___________________NAV_R2__________________ KC_HOME, KC_PGDN, KC_PGUP, KC_END,  _______
 #define ___________________NAV_R3__________________ _______, _______, _______, _______, _______
 
+#define __________________GAME_L1__________________ KC_Q,    KC_W,    KC_E,    KC_R,    KC_T
+#define __________________GAME_L2__________________ KC_A,    KC_S,    KC_D,    KC_F,    KC_G
+#define __________________GAME_L3__________________ KC_Z,    KC_X,    KC_C,    KC_V,    KC_B
+
+#define __________________GAME_R1__________________ KC_Y,    KC_U,    KC_I,    KC_O,    KC_P
+#define __________________GAME_R2__________________ KC_H,    KC_J,    KC_K,    KC_L,    KC_ENT
+#define ____________GAME_R3S______________          KC_N,    KC_M,    KC_COMM, KC_DOT
+#define __________________GAME_R3__________________ ____________GAME_R3S______________, _______
+
 #define ________QWERTY_SPC_______ CK_LSPC, CK_TAB,  CK_RSPC
 #define _________DEV_SPC_________ KC_ENT,  _______, KC_BSPC
 #define _________MISC_SPC________ _______, _______, KC_DEL
+#define _________GAME_SPC________ KC_SPC, KC_TAB,  CK_RSPC

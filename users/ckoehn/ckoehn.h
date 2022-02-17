@@ -7,8 +7,9 @@ enum layers {
     _BASE = 0,
     _DEV,
     _MISC,
-    _NAV,
     _NUM,
+    _NAV,
+    _GAME,
     _EMPTY,
 };
 
