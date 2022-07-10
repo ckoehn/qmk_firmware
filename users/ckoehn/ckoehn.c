@@ -4,7 +4,9 @@ uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
     switch (keycode) {
         case CK_A:
         case CK_SCLN:
-            return 160;
+        case CK_LSPC:
+        case CK_RSPC:
+            return 150;
         default:
             return TAPPING_TERM;
     }
