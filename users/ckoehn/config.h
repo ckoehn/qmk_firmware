@@ -1,4 +1,4 @@
-#define UNICODE_SELECTED_MODES UC_LNX
+#define UNICODE_SELECTED_MODES UC_MAC
 #define UNICODE_CYCLE_PERSIST false
 
 // Prevent normal rollover on alphas from accidentally triggering mods

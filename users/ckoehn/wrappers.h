@@ -6,7 +6,7 @@
 #define ___________________________________________ _______, _______, _______, _______, _______
 
 #define _________________QWERTY_L1_________________ KC_Q,    CK_W,    CK_E,    CK_R,    KC_T
-#define _________________QWERTY_L2_________________ CK_A,    KC_S,    KC_D,    KC_F,    KC_G
+#define _________________QWERTY_L2_________________ CK_A,    KC_S,    KC_D,    CK_F,    KC_G
 #define _________________QWERTY_L3_________________ KC_Z,    KC_X,    KC_C,    KC_V,    KC_B
 
 #define _________________QWERTY_R1_________________ KC_Y,    CK_U,    CK_I,    CK_O,    KC_P
