@@ -2,6 +2,7 @@
 
 #include QMK_KEYBOARD_H
 #include "wrappers.h"
+#include "layouts.h"
 
 enum layers {
     _BASE = 0,

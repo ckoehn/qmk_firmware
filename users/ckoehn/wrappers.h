@@ -2,6 +2,7 @@
 #include "ckoehn.h"
 
 #define LAYOUT_wrapper(...) LAYOUT(__VA_ARGS__)
+#define CK_LAYOUT_WRAPPER(...) CK_LAYOUT(__VA_ARGS__)
 
 #define ___________________________________________ _______, _______, _______, _______, _______
 
