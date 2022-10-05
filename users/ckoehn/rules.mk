@@ -2,5 +2,6 @@ SRC += ckoehn.c
 
 CAPS_WORD_ENABLE = yes
 COMBO_ENABLE = yes
+COMMAND_ENABLE = no
 LTO_ENABLE = yes
 UNICODEMAP_ENABLE = yes
