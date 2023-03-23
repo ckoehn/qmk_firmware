@@ -60,3 +60,8 @@
 #define _________DEV_SPC_________ KC_ENT,  _______, KC_BSPC
 #define _________MISC_SPC________ _______, _______, KC_DEL
 #define _________GAME_SPC________ KC_SPC, KC_TAB,  CK_RSPC
+
+#define __QWERTY_SPC_2__ CK_LSPC, CK_RSPC
+#define ___DEV_SPC_2____ KC_ENT,  KC_BSPC
+#define ___MISC_SPC_2___ _______, KC_DEL
+#define ___GAME_SPC_2___ KC_SPC,  CK_RSPC
