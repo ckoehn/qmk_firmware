@@ -1,4 +1,6 @@
-SRC += ckoehn.c
+# https://github.com/qmk/qmk_firmware/issues/21137
+INTROSPECTION_KEYMAP_C += ckoehn.c
+# SRC += ckoehn.c
 
 BACKLIGHT_ENABLE = no
 CAPS_WORD_ENABLE = yes

@@ -14,7 +14,7 @@ enum layers {
     _EMPTY,
 };
 
-#define CK_W LT(MOD_LALT, KC_W)
+#define CK_W MT(MOD_LALT, KC_W)
 #define CK_E MT(MOD_LCTL, KC_E)
 #define CK_R MT(MOD_LGUI, KC_R)
 
@@ -23,18 +23,15 @@ enum layers {
 
 #define CK_U MT(MOD_RGUI, KC_U)
 #define CK_I MT(MOD_RCTL, KC_I)
-#define CK_O LT(MOD_RALT, KC_O)
+#define CK_O MT(MOD_RALT, KC_O)
 
 #define CK_SCLN MT(MOD_RSFT, KC_SCLN)
 
 #define CK_LSPC LT(_DEV, KC_SPC)
 #define CK_RSPC LT(_DEV, KC_ESC)
 #define CK_TAB LT(_MISC, KC_TAB)
+#define CK_ENT LT(_MISC, KC_ENT)
 #define CK_NAV MO(_NAV)
-
-// Deprecated
-#define CK_ENT MT(MOD_RCTL, KC_ENT)
-#define CK_ESC MT(MOD_LCTL, KC_ESC)
 
 enum unicode_names {
     DE_AE = 0,

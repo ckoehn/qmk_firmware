@@ -34,10 +34,8 @@ uint16_t COMBO_LEN = COMBO_LENGTH;
 const uint16_t PROGMEM df_combo[] = {KC_D, CK_F, COMBO_END};
 const uint16_t PROGMEM jk_combo[] = {KC_J, KC_K, COMBO_END};
 const uint16_t PROGMEM ui_combo[] = {CK_U, CK_I, COMBO_END};
-const uint16_t PROGMEM er_combo[] = {CK_E, CK_R, COMBO_END};
-/* const uint16_t PROGMEM uio_combo[] = {CK_U, CK_I, CK_O, COMBO_END}; */
 combo_t key_combos[] = {
-    [JK_ENTER] = COMBO(jk_combo, KC_ENT),
     [DF_TAB] = COMBO(df_combo, CK_TAB),
+    [JK_ENTER] = COMBO(jk_combo, CK_ENT),
     [UI_BSPC] = COMBO(ui_combo, KC_BSPC),
 };
